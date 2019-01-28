@@ -107,3 +107,95 @@ p {
 .main-navigation .back-call .btn-back-call:active {
   background-color: #e6e6e6;
 }
+
+.company-info {
+  background-color: #65269d;
+  color: #ffffff;
+}
+
+.company-info .tagline {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.company-info .company-description {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.company-info .company-info-button p {
+  font-size: 16px;
+}
+
+.section-header {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #7f38bd;
+  margin: 0;
+}
+
+.subheading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #383d52;
+}
+
+.print-banners-list {
+  margin: 0;
+  padding: 0;
+}
+
+.call-to-action {
+  max-width: 473px;
+  width: 100%;
+  height: 117px;
+  background-color: #883eca;
+  color: #ffffff;
+}
+
+.call-to-action p:first-child {
+  font-size: 13px;
+  font-style: italic;
+}
+
+.call-to-action p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.layout-1 {
+  position: relative;
+  max-width: 499px;
+  width: 100%;
+  height: 402px;
+  background-color: #e8e2ed;
+  border-radius: 8px;
+}
+
+.layout-2 {
+  position: absolute;
+  top: 12px;
+  width: 538px;
+  height: 433px;
+  background-color: #bcb3bd;
+  border-radius: 8px;
+}
+
+.print-banners-slider {
+  position: absolute;
+  top: -6px;
+  width: 652px;
+  height: 524px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

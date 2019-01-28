@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #5e606a;
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  background: none;
+  background-color: #fb0275;
+  padding: 17px 41px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #bc3070;
+}
+
+.btn:active {
+  background-color: #a3014b;
+}
+
+.main-navigation {
+  background-color: #65269d;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.main-navigation a {
+  color: #ffffff;
+}
+
+.main-navigation .logo {
+  font-size: 18px;
+  font-weight: 800;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.main-navigation .site-navigation-list {
+  margin: 0;
+  list-style: none;
+}
+
+.main-navigation .back-call {
+  font-weight: 700;
+}
+
+.main-navigation .back-call a {
+  font-size: 16px;
+}
+
+.main-navigation .back-call .btn-back-call {
+  font-size: 11px;
+  font-weight: 800;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  padding: 12px 23px;
+}
+
+.main-navigation .back-call .btn-back-call:hover {
+  color: #65269d;
+  background-color: #ffffff;
+}
+
+.main-navigation .back-call .btn-back-call:active {
+  background-color: #e6e6e6;
+}

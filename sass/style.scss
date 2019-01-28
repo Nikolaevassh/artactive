@@ -1,0 +1,121 @@
+$main-color: #65269d;
+$promo-color: #883eca;
+$contrast-text-color: #ffffff;
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #5e606a;
+
+  background-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  -webkit-clip-path: inset(100%);
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $contrast-text-color;
+  border: none;
+  border-radius: 25px;
+  background: none;
+  background-color: #fb0275;
+  padding: 17px 41px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #bc3070;
+  }
+
+  &:active {
+    background-color: #a3014b;
+  }
+}
+
+// шапка
+
+.main-navigation {
+  background-color: $main-color;
+  color: $contrast-text-color;
+  text-transform: uppercase;
+
+  a {
+    color: $contrast-text-color;
+  }
+
+  .logo {
+    font-size: 18px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+
+  .site-navigation-list {
+    margin: 0;
+    list-style: none;
+  }
+
+  .back-call {
+    font-weight: 700;
+
+    a {
+      font-size: 16px;
+    }
+
+    .btn-back-call {
+      font-size: 11px;
+      font-weight: 800;
+      background-color: transparent;
+      border: 2px solid #ffffff;
+      padding: 12px 23px;
+
+      &:hover {
+        color: $main-color;
+        background-color: $contrast-text-color;
+      }
+
+      &:active {
+        background-color: #e6e6e6;
+      }
+    }
+  }
+}
